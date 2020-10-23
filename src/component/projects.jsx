@@ -14,10 +14,10 @@ export default class Projects extends Component {
 						</div>
 						<div className="row">
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-								<div className="project" style={{backgroundImage: 'url(images/thirteen.png)'}}>
+								<div className="project" style={{backgroundImage: 'url(images/13.png)'}}>
 									<div className="desc">
 										<div className="con">
-											<h3><a href="work.html">Work 01</a></h3>
+											<h3><a href="work.html">Thirteen</a></h3>
 											<span>Website</span>
 											<p className="icon">
 												<span><a href="#"><i className="icon-eye" />000</a></span>
@@ -27,10 +27,10 @@ export default class Projects extends Component {
 								</div>
 							</div>
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
-								<div className="project" style={{backgroundImage: 'url(images/fenders.png)'}}>
+								<div className="project" style={{backgroundImage: 'url(images/f.png)'}}>
 									<div className="desc">
 										<div className="con">
-											<h3><a href="work.html">Work 02</a></h3>
+											<h3><a href="work.html">Fenders</a></h3>
 											<span>Animation</span>
 											<p className="icon">
 												<span><a href="#"><i className="icon-share3" /></a></span>
@@ -42,10 +42,10 @@ export default class Projects extends Component {
 								</div>
 							</div>
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInTop">
-								<div className="project" style={{backgroundImage: 'url(images/img-3.jpg)'}}>
+								<div className="project" style={{backgroundImage: 'url(images/turf.png)'}}>
 									<div className="desc">
 										<div className="con">
-											<h3><a href="work.html">Work 03</a></h3>
+											<h3><a href="work.html">Turfs</a></h3>
 											<span>Illustration</span>
 											<p className="icon">
 												<span><a href="#"><i className="icon-share3" /></a></span>
@@ -57,10 +57,10 @@ export default class Projects extends Component {
 								</div>
 							</div>
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInBottom">
-								<div className="project" style={{backgroundImage: 'url(images/img-4.jpg)'}}>
+								<div className="project" style={{backgroundImage: 'url(images/byn.png)'}}>
 									<div className="desc">
 										<div className="con">
-											<h3><a href="work.html">Work 04</a></h3>
+											<h3><a href="work.html">Bayan</a></h3>
 											<span>Application</span>
 											<p className="icon">
 												<span><a href="#"><i className="icon-share3" /></a></span>
@@ -72,10 +72,10 @@ export default class Projects extends Component {
 								</div>
 							</div>
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-								<div className="project" style={{backgroundImage: 'url(images/img-5.jpg)'}}>
+								<div className="project" style={{backgroundImage: 'url(images/chefy.png)'}}>
 									<div className="desc">
 										<div className="con">
-											<h3><a href="work.html">Work 05</a></h3>
+											<h3><a href="work.html">Cheify</a></h3>
 											<span>Graphic, Logo</span>
 											<p className="icon">
 												<span><a href="#"><i className="icon-share3" /></a></span>
