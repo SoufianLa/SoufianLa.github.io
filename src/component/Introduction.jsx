@@ -17,7 +17,7 @@ export default class Introduction extends Component {
                           <div className="text-center">
                           <h1 style={{color: 'white'}}>Soufian Lagnaoui</h1><br></br>
                           <h2 style={{color: 'white'}}>Senior Software Engineer</h2>
-                          <p><a className="btn btn-primary" href="" target="_blank" rel="noopener noreferrer" style={{color: 'white'}}>Download My Resume<i className="icon-download4" /></a></p>
+                          <p><a className="btn btn-primary" href="https://docs.google.com/document/d/1OHtm1pSWmEYcZPO-9JZ1GYzTPed-lfhL-3ZUHTE3kVU/edit?usp=sharing" target="_blank" rel="noopener noreferrer" style={{color: 'white'}}>Download My Resume<i className="icon-download4" /></a></p>
                           </div>
                         </div>
                       </div>

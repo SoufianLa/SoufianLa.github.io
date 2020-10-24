@@ -10,7 +10,7 @@ export default class Sidebar extends Component {
             <div className="text-center">
             
               <div className="author-img" style={{backgroundImage: 'url(images/about.jpg)'}} />
-              <span class="position">IT Engineer/CTO as Service 🚀</span>
+              <span class="position">Software Engineer/CTO as Service 🚀</span>
               <hr></hr>
               <div style={{display: 'inline', marginRight: '10px'}}><a href="https://api.whatsapp.com/send/?phone=212605813180&text&app_absent=0" target="_blank" rel="noopener noreferrer"><i className="icon-whatsapp" /></a></div>
               <div style={{display: 'inline', marginRight: '10px'}}><a href="tel:+212605813180" target="_blank" rel="noopener noreferrer"><i className="icon-phone" /></a></div>
