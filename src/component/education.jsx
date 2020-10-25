@@ -26,7 +26,7 @@ export default class Education extends Component {
                 <div className="panel-body">
                   <div className="row">
                     <div className="col-md-12">
-                      <p>Institut National des Postes et Télécommunications <a href="http://inpt.ac.ma">(INPT)</a>, RABAT, MOROCCO</p>
+                      <p>Institut National des Postes et Télécommunications <a href="http://inpt.ac.ma" target="_blank">(INPT)</a>, RABAT, MOROCCO</p>
                     </div>
                   </div>
                 </div>

@@ -7,6 +7,7 @@ import About from './component/about'
 import Timeline from './component/timeline';
 import Projects from './component/projects';
 import Contact from './component/contact'
+import Education from './component/education';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Introduction />
           <About />
           <Timeline />
+          <Education />
           <Projects />
           <Contact />
 

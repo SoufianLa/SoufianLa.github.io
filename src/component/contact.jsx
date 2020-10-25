@@ -1,8 +1,53 @@
 import React, {Component} from 'react'
+import{ init, send } from 'emailjs-com';
 
 
 export default class Contact extends Component
 {
+  constructor(props) {
+    super(props);
+    this.state = {
+      name: '',
+      email: '',
+      subject: '',
+      message: ''
+    }
+    init("user_SMhzp9adhdluZ4yS1R8gw");
+  }
+  onNameChange(event) {
+    this.setState({name: event.target.value})
+  }
+  onEmailChange(event){
+    this.setState({email: event.target.value})
+  }
+  onSubjectChange(event){
+    this.setState({subject: event.target.value})
+  }
+  onMessageChange(event){
+    this.setState({message: event.target.value})
+  }
+  handleSubmit(event) {
+    event.preventDefault();
+    this.sendFeedback({message: this.state.message, name: this.state.name, reply_to: this.state.email, subject: this.state.subject})
+    this.resetForm();
+    
+  }
+  resetForm(){
+    this.setState({"email":"", "message":"", "name":"","subject":""});
+  }
+  sendFeedback (variables) {
+    const serviceId = 'service_6smjnlo';
+    const templateId = 'template_n19gc9s';
+    send(
+      serviceId, templateId,
+      variables
+      ).then(res => {
+        console.log('Email successfully sent!')
+      })
+      // Handle errors here however you like, or use a React error boundary
+      .catch(err => console.error('Oh well, you failed. Here some thoughts on the error that occured:', err))
+    }
+   
     render () {
         return (
             <div>
@@ -18,7 +63,7 @@ export default class Contact extends Component
       <div className="col-md-5">
         <div className="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
           <div className="colorlib-icon">
-            <i className="icon-globe-outline" />
+            <i className="icon-mail" />
           </div>
           <div className="colorlib-text">
             <p><a href="mailto:so.lagnaoui@gmail.com">so.lagnaoui@gmail.com</a></p>
@@ -26,7 +71,7 @@ export default class Contact extends Component
         </div>
         <div className="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
           <div className="colorlib-icon">
-            <i className="icon-map" />
+            <i className="icon-home" />
           </div>
           <div className="colorlib-text">
             <p>Alsace Lorraine, Casablanca, Morocco</p>
@@ -44,18 +89,18 @@ export default class Contact extends Component
       <div className="col-md-7 col-md-push-1">
         <div className="row">
           <div className="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
-            <form action>
+            <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
               <div className="form-group">
-                <input type="text" className="form-control" placeholder="Name" />
+                <input type="text" className="form-control" placeholder="Name"  value={this.state.name}  onChange={this.onNameChange.bind(this)} />
               </div>
               <div className="form-group">
-                <input type="text" className="form-control" placeholder="Email" />
+                <input type="text" className="form-control" placeholder="Email" value={this.state.email}  onChange={this.onEmailChange.bind(this)}/>
               </div>
               <div className="form-group">
-                <input type="text" className="form-control" placeholder="Subject" />
+                <input type="text" className="form-control" placeholder="Subject" value={this.state.subject} onChange={this.onSubjectChange.bind(this)}/>
               </div>
               <div className="form-group">
-                <textarea name id="message" cols={30} rows={7} className="form-control" placeholder="Message" defaultValue={""} />
+                <textarea name id="message" cols={30} rows={7} className="form-control" placeholder="Message" value={this.state.message}  onChange={this.onMessageChange.bind(this)}/>
               </div>
               <div className="form-group">
                 <input type="submit" className="btn btn-primary btn-send-message" defaultValue="Send Message" />
