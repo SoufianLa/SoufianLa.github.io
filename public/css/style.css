@@ -94,6 +94,13 @@ figure {
       transform: translateX(-300px);
       padding-top: 4em;
     }
+    .author-img {
+      background-image: url("../images/about.jpg");
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat !important;
+      position: relative;
+    }
   }
   #colorlib-aside .author-img {
     width: 150px;
@@ -411,8 +418,8 @@ body.offcanvas {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat !important;
-  background-size: 100vw 100vh;
-  position: relative; }
+  position: relative;
+}
 
 .colorlib-heading {
   font-size: 18px;
