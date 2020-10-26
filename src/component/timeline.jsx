@@ -58,7 +58,7 @@ export default class Timeline extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Python Engineer (final technical internship)<span>2016</span><br></br><span><a href="https://www.t-t.ma/">LA HACA</a></span></h2>
+                        <h2>Python Engineer (final technical internship)<span>2016</span><br></br><span><a href="https://www.haca.ma/">LA HACA</a></span></h2>
                         <p> Design and implementation of a remote monitoring web application for audiovisual
 operators in python.</p>
 <p> <b>Tools/languages</b> : Back-end : (Python, asynchronous Framework Twisted), Database
