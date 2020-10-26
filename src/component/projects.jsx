@@ -82,7 +82,7 @@ export default class Projects extends Component {
 											<h3><a href="work.html">Cheify (Backend)</a></h3>
 											<span>Coming very soon</span>
 											<p className="icon">
-												<span><a href="#"><i className="icon-eye" /> 100</a></span>
+												<span><a href="#"><i className="icon-eye" /> details</a></span>
 											</p>
 										</div>
 									</div>
