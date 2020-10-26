@@ -14,11 +14,11 @@ export default class Sidebar extends Component {
               <hr></hr>
               <div style={{display: 'inline', marginRight: '10px'}}><a href="https://api.whatsapp.com/send/?phone=212605813180&text&app_absent=0" target="_blank" rel="noopener noreferrer"><i className="icon-whatsapp" /></a></div>
               <div style={{display: 'inline', marginRight: '10px'}}><a href="tel:+212605813180" target="_blank" rel="noopener noreferrer"><i className="icon-phone" /></a></div>
-              <div style={{display: 'inline', marginRight: '10px'}}><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><i className="icon-facebook2" /></a></div>
-              <div style={{display: 'inline', marginRight: '10px'}}><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><i className="icon-instagram" /></a></div>
-              <div style={{display: 'inline', marginRight: '10px'}}><a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin2" /></a></div>
-              <div style={{display: 'inline', marginRight: '10px'}}><a href="https://github.com/" target="_blank" rel="noopener noreferrer"><i className="icon-github"></i></a></div>
-              <div style={{display: 'inline', marginRight: '10px'}}><a href="https://twitter.com/" target="_blank" rel="noopener noreferrer"><i className="icon-twitter2" /></a></div>
+              <div style={{display: 'inline', marginRight: '10px'}}><a href="https://www.facebook.com/souufian.lagnaoui/" target="_blank" rel="noopener noreferrer"><i className="icon-facebook2" /></a></div>
+              <div style={{display: 'inline', marginRight: '10px'}}><a href="https://www.instagram.com/soufianlagnaoui/" target="_blank" rel="noopener noreferrer"><i className="icon-instagram" /></a></div>
+              <div style={{display: 'inline', marginRight: '10px'}}><a href="https://www.linkedin.com/in/soufian-lagnaoui-905b31b9/" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin2" /></a></div>
+              <div style={{display: 'inline', marginRight: '10px'}}><a href="https://github.com/SoufianLa" target="_blank" rel="noopener noreferrer"><i className="icon-github"></i></a></div>
+              <div style={{display: 'inline', marginRight: '10px'}}><a href="https://twitter.com/LagnaouiSo" target="_blank" rel="noopener noreferrer"><i className="icon-twitter2" /></a></div>
             </div>
             <hr></hr>
             <nav id="colorlib-main-menu" role="navigation" className="navbar">
