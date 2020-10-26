@@ -23,13 +23,13 @@ export default class Sidebar extends Component {
             <hr></hr>
             <nav id="colorlib-main-menu" role="navigation" className="navbar">
               <div id="navbar" className="collapse">
-                <ul>
+                <ul style={{textAlign: 'left', marginLeft: '34%'}}>
                   <li className="active"><a href="#home" data-nav-section="home">Introduction</a></li>
                   <li><a href="#about" data-nav-section="about">About</a></li>
                   <li><a href="#timeline" data-nav-section="timeline">Timeline</a></li>
-                  <li><a href="#timeline" data-nav-section="education">Education</a></li>
-                  <li><a href="#" data-nav-section="projects">Projects</a></li>
-                  <li><a href="#" data-nav-section="contact">Contact</a></li>
+                  <li><a href="#education" data-nav-section="education">Education</a></li>
+                  <li><a href="#projects" data-nav-section="projects">Projects</a></li>
+                  <li><a href="#contact" data-nav-section="contact">Contact</a></li>
                   <li></li>
                   <li></li>
                 </ul>

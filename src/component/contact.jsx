@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import{ init, send } from 'emailjs-com';
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export default class Contact extends Component
 {
@@ -42,15 +43,46 @@ export default class Contact extends Component
       serviceId, templateId,
       variables
       ).then(res => {
-        console.log('Email successfully sent!')
+        toast.info('🤠 Thank for your contact i\'ll get back to ASAP ! ', {
+          position: "top-center",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          });
       })
-      // Handle errors here however you like, or use a React error boundary
-      .catch(err => console.error('Oh well, you failed. Here some thoughts on the error that occured:', err))
+      .catch(err => {
+        toast.error('⚠ Sorry, try again later ', {
+          position: "top-center",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          });
+        console.error('Oh well, you failed. Here some thoughts on the error that occured:', err)
+      })
     }
    
     render () {
         return (
             <div>
+              <div className="row">
+                <ToastContainer
+                 position="top-center"
+                 autoClose={5000}
+                 hideProgressBar={false}
+                 newestOnTop={false}
+                 closeOnClick
+                 rtl={false}
+                 pauseOnFocusLoss
+                 draggable
+                 pauseOnHover
+                 />
+                 </div>
                 <section className="colorlib-contact" data-section="contact">
   <div className="colorlib-narrow-content">
     <div className="row">
@@ -91,16 +123,16 @@ export default class Contact extends Component
           <div className="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
             <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
               <div className="form-group">
-                <input type="text" className="form-control" placeholder="Name"  value={this.state.name}  onChange={this.onNameChange.bind(this)} />
+                <input type="text" className="form-control" placeholder="Name"  value={this.state.name}  onChange={this.onNameChange.bind(this)} required={true} />
               </div>
               <div className="form-group">
-                <input type="text" className="form-control" placeholder="Email" value={this.state.email}  onChange={this.onEmailChange.bind(this)}/>
+                <input type="text" className="form-control" placeholder="Email" value={this.state.email}  onChange={this.onEmailChange.bind(this)} required={true} />
               </div>
               <div className="form-group">
-                <input type="text" className="form-control" placeholder="Subject" value={this.state.subject} onChange={this.onSubjectChange.bind(this)}/>
+                <input type="text" className="form-control" placeholder="Subject" value={this.state.subject} onChange={this.onSubjectChange.bind(this)} required={true}/>
               </div>
               <div className="form-group">
-                <textarea name id="message" cols={30} rows={7} className="form-control" placeholder="Message" value={this.state.message}  onChange={this.onMessageChange.bind(this)}/>
+                <textarea name id="message" cols={30} rows={7} className="form-control" placeholder="Message" value={this.state.message}  onChange={this.onMessageChange.bind(this)} required={true}/>
               </div>
               <div className="form-group">
                 <input type="submit" className="btn btn-primary btn-send-message" defaultValue="Send Message" />
