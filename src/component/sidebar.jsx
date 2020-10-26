@@ -9,7 +9,7 @@ export default class Sidebar extends Component {
           <aside id="colorlib-aside" className="border js-fullheight">
             <div className="text-center">
             
-              <div className="author-img" style={{backgroundImage: 'url(images/about.jpg)'}} />
+              <div className="author-img" />
               <span class="position">Software Engineer/CTO as Service 🚀</span>
               <hr></hr>
               <div style={{display: 'inline', marginRight: '10px'}}><a href="https://api.whatsapp.com/send/?phone=212605813180&text&app_absent=0" target="_blank" rel="noopener noreferrer"><i className="icon-whatsapp" /></a></div>
