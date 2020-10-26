@@ -104,10 +104,6 @@ figure {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     border-radius: 50%;
-    background-image: url("../images/about.jpg");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
   }
   #colorlib-aside .email {
     display: block;
