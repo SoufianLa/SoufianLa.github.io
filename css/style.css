@@ -92,7 +92,8 @@ figure {
       -ms-transform: translateX(-300px);
       -o-transform: translateX(-300px);
       transform: translateX(-300px);
-      padding-top: 4em; } }
+      padding-top: 4em; }
+  }
   #colorlib-aside .author-img {
     width: 150px;
     height: 150px;
@@ -404,6 +405,7 @@ body.offcanvas {
       padding-bottom: 8em; } }
 
 .author-img {
+  background-image: url("../images/about.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
