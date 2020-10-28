@@ -8,6 +8,7 @@ import Contact from './component/contact'
 import Education from './component/education';
 
 
+
 function App() {
   return (
     <div id="colorlib-page">
