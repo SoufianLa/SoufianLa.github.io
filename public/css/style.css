@@ -395,6 +395,7 @@ body.offcanvas {
 .colorlib-work,
 .colorlib-about,
 .colorlib-services,
+.colorlib-terminal,
 .colorlib-contact {
   padding-top: 2em;
   padding-bottom: 2em;
@@ -409,6 +410,7 @@ body.offcanvas {
     .colorlib-work,
     .colorlib-about,
     .colorlib-services,
+    .colorlib-terminal,
     .colorlib-contact {
       padding-top: 5em;
       padding-bottom: 8em; } }

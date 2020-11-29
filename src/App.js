@@ -6,6 +6,7 @@ import Timeline from './component/timeline';
 import Projects from './component/projects';
 import Contact from './component/contact'
 import Education from './component/education';
+import TerminalCustom from './component/terminal'
 
 
 
@@ -17,12 +18,13 @@ function App() {
         </div>
         <div id="colorlib-main">
           <Introduction />
+          <TerminalCustom />
           <About />
           <Timeline />
           <Education />
           <Projects />
           <Contact />
-
+          <TerminalCustom />
       	</div>
       </div>
   );
