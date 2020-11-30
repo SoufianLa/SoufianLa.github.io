@@ -7,6 +7,7 @@ import Projects from './component/projects';
 import Contact from './component/contact'
 import Education from './component/education';
 import TerminalCustom from './component/terminal'
+import Skills from './component/skills'
 
 
 
@@ -18,13 +19,13 @@ function App() {
         </div>
         <div id="colorlib-main">
           <Introduction />
-          <TerminalCustom />
           <About />
+          <TerminalCustom />
+          <Skills />
           <Timeline />
           <Education />
           <Projects />
           <Contact />
-          <TerminalCustom />
       	</div>
       </div>
   );

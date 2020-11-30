@@ -1451,3 +1451,11 @@ body.offcanvas {
     display: flex;
     align-items: center;
   }
+
+pre {
+    background-color: black;
+    border: 1px solid black;
+}
+.dNrvp {
+  color: #2c98f0 !important;
+}
