@@ -21,7 +21,7 @@ export default class Projects extends Component {
 											<span>13 (Thirteen) is an original exciting text messaging app that is focused on connecting the world together while promoting transparency and sharing true opinions between its users.</span>
 											<span></span>
                                             <p className="icon detail">
-												<span><a href="https://play.google.com/store/apps/details?id=com.thirteen"><i className="icon-eye" />details</a></span>
+												<span><a href="https://www.the13app.com"><i className="icon-eye" />details</a></span>
 											</p>
 										</div>
 									</div>
@@ -35,7 +35,7 @@ export default class Projects extends Component {
 											<h3><a href="">Turfs (Backend)</a></h3>
 											<span>Chat, Ask Questions and Provide advise to people around you. Turfs is an app that allows you to navigate a map and chat with others near your point of interest (Turfs). Turfs could be restaurants, cafes, hospitals, etc.</span>
 											<p className="icon">
-												<span><a href="https://play.google.com/store/apps/details?id=com.rt.turf&amp;hl=en"><i className="icon-eye" /> details</a></span>
+												<span><a href="https://turfsapp.com"><i className="icon-eye" /> details</a></span>
 											</p>
 										</div>
 									</div>
@@ -80,9 +80,9 @@ export default class Projects extends Component {
 									<div className="desc">
 										<div className="con">
 											<h3><a href="work.html">Cheify (Backend)</a></h3>
-											<span>Coming very soon</span>
+											<span>Cheify is a platform that enables people to have a unique dinning experience through it they will be able to access to the most skilled chefs and coordinate with them.</span>
 											<p className="icon">
-												<span><a href="#"><i className="icon-eye" /> details</a></span>
+												<span><a href="https://thechefyapp.com"><i className="icon-eye" /> details</a></span>
 											</p>
 										</div>
 									</div>
