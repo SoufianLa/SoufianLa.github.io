@@ -1,0 +1,38 @@
+{
+    "resume":{
+        "url": "https://docs.google.com/document/d/1OHtm1pSWmEYcZPO-9JZ1GYzTPed-lfhL-3ZUHTE3kVU/edit?usp=sharing",
+        "label": "resume",
+        "desc": "opens resume"
+
+    },
+    "whoami":{
+        "label": "whoami",
+        "desc": "show my introduction",
+        "msg": "Introduction\nMy name is Soufian,  i am software engineer with IT Engineer's degree, i have begin my career as fullstack engineer in startup company where i got to develop some web apps, backend for mobile apps, then i ve got a passion for Backend side, code architecture, databases, systems, proxies ... i found it it is the most interseting part of the eco-system is is challenging sometimes which gives the chance to solve problems in a clever ways. What i am doing now is developing, scalling, operationg some backend apps for a company in morocco and in my free time i work on some side projects for exploring new technologies in purpose."
+
+    },
+    "education":{
+        "label": "education",
+        "desc": "show my education degree",
+        "msg": "Education\nEngineer's degree, Information & technology, Telecoms at INPT Morocco."
+
+    },
+    "skills":{
+        "label": "skills",
+        "desc": "show my skills",
+        "msg": "Key words:\n-WEB DEVELOPMENT\n-DATA STRUCTURES & ALGORITHMS\n-DEV OPS\n-DATABASES\n-CLOUD AND SYSTEM "
+
+    },
+    "experiences":{
+        "label": "experiences",
+        "desc": "show my experiences",
+        "msg": "Experiences\n-2019-present: Senior Backend Engineer at Revotrends.\n-2018-2019: Lead software design Engineer at FutureTrendz.\n-2016-2018: Full Stack Engineer at Mobilanc. \n-2016: Python Engineer (final technical internship) at HACA.\n-2015: Java Developer (Technical internship) at Technology & telecom."
+
+    },
+    "contact":{
+        "label": "contact",
+        "desc": "show my contact",
+        "msg": "Contact\n-Email: so.lagnaoui@gmail.com\n-Twitter:@LagnaouiSo\n-Instagram:@soufianlagnaoui\n-Phone:+212605813180. "
+    }
+
+}

@@ -395,6 +395,7 @@ body.offcanvas {
 .colorlib-work,
 .colorlib-about,
 .colorlib-services,
+.colorlib-terminal,
 .colorlib-contact {
   padding-top: 2em;
   padding-bottom: 2em;
@@ -409,6 +410,7 @@ body.offcanvas {
     .colorlib-work,
     .colorlib-about,
     .colorlib-services,
+    .colorlib-terminal,
     .colorlib-contact {
       padding-top: 5em;
       padding-bottom: 8em; } }
@@ -1449,3 +1451,11 @@ body.offcanvas {
     display: flex;
     align-items: center;
   }
+
+pre {
+    background-color: black;
+    border: 1px solid black;
+}
+.dNrvp {
+  color: #2c98f0 !important;
+}
