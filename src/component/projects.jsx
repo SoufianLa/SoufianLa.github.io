@@ -50,7 +50,7 @@ export default class Projects extends Component {
 											<h3><a href="">Fenders (Backend)</a></h3>
 											<span>Fenders is an app for the car owner community, which provides a forum for users in each category to exchange experiences with each other. The application also offers the possibility of organizing events for car owners.</span>
 											<p className="icon">
-												<span><a href="https://play.google.com/store/apps/details?id=com.revotrends.eliteswap" target="_blank"><i className="icon-eye" /> details</a></span>
+												<span><a href="https://apps.apple.com/us/app/fenders/id1518045463?l=fr&ls=1" target="_blank"><i className="icon-eye" /> details</a></span>
 											</p>
 										</div>
 									</div>
