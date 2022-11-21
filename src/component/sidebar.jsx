@@ -30,7 +30,7 @@ export default class Sidebar extends Component {
                   <li><a href="#education" data-nav-section="education">Education</a></li>
                   <li><a href="#projects" data-nav-section="projects">Projects</a></li>
                   <li><a href="#contact" data-nav-section="contact">Contact</a></li>
-                  <li><a href="http://free-tech.blog">Blog</a></li>
+                  <li><a href="http://free-tech.blog" target="_blank">Blog</a></li>
                   <li></li>
                 </ul>
 
