@@ -8,7 +8,7 @@ export default class Sidebar extends Component {
           <nav href="#navbar" className="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i /></nav>
           <aside id="colorlib-aside" className="border js-fullheight">
             <div className="text-center">
-            
+
               <div className="author-img" />
               <span class="position">Software Engineer/CTO as Service 🚀</span>
               <hr></hr>
@@ -30,7 +30,7 @@ export default class Sidebar extends Component {
                   <li><a href="#education" data-nav-section="education">Education</a></li>
                   <li><a href="#projects" data-nav-section="projects">Projects</a></li>
                   <li><a href="#contact" data-nav-section="contact">Contact</a></li>
-                  <li></li>
+                  <li><a href="http://free-tech.blog">Blog</a></li>
                   <li></li>
                 </ul>
 
