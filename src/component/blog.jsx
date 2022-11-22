@@ -13,7 +13,7 @@ export default class Blog extends Component {
                                         <div className="about-desc">
                                             <span className="heading-meta">blog</span>
                                             <h2 className="colorlib-heading">Checkout My Blog by clicking on the picture</h2>
-                                            <div style={{backgroundImage: 'url(images/free.png)'}}></div>
+                                            <img src="images/free.png"></img>
                                         </div>
                                     </div>
                                 </div>

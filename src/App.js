@@ -26,8 +26,8 @@ function App() {
           <Timeline />
           <Education />
           <Projects />
-          <Contact />
           <Blog />
+          <Contact />
       	</div>
       </div>
   );
