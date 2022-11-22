@@ -8,6 +8,7 @@ import Contact from './component/contact'
 import Education from './component/education';
 import TerminalCustom from './component/terminal'
 import Skills from './component/skills'
+import Blog from './component/blog';
 
 
 
@@ -26,6 +27,7 @@ function App() {
           <Education />
           <Projects />
           <Contact />
+          <Blog />
       	</div>
       </div>
   );
