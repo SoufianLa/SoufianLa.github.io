@@ -13,7 +13,8 @@ export default class Blog extends Component {
                                         <div className="about-desc">
                                             <span className="heading-meta">blog</span>
                                             <h2 className="colorlib-heading">Checkout My Blog by clicking on the picture</h2>
-                                            <div style={{textAlign: 'center'}}><a href="http://free-tech.blog"><img src="images/free.png"></img></a></div>
+                                            <span><a href="http://free-tech.blog"><img src="images/free.png"></img></a></span>
+                                            <span><a href="http://212gaming.com"><img src="images/212gaming.png"/></a></span>
                                         </div>
                                     </div>
                                 </div>
