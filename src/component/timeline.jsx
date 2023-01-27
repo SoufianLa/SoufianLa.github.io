@@ -48,7 +48,7 @@ export default class Timeline extends Component {
                         <h2>Full Stack Engineer <span>2016-2018</span><br></br><span><a href="http://www.mobiblanc.com">Mobiblanc</a></span></h2>
                         <p> i was working on some interesting projects most of them was backend for mobile apps.
 </p><p> i was member of the team that is responsible for the API/BACKOFFICE mobile & web development.</p>
-<p> <b>Tools/languages</b> : PHP (symfony), NodeJS, REST/SOAP, SWAGGERUI, MARIADB, Mysql, Redis, JWT, Guard, git, HTML5/CSS3 ...</p>
+<p> <b>Tools/languages</b> : PHP (symfony), NodeJS, REST/SOAP, SWAGGERUI, MARIADB, Mysql, Redis, JWT, Guard, git, HTML5/CSS3, ReactJs ...</p>
                       </div>
                     </div>
                   </article>
