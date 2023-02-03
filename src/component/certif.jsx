@@ -1,10 +1,10 @@
-import React, { Component } from 'react'
+import React, {Component} from 'react'
 
-export default class Blog extends Component {
+export default class Certif extends Component {
     render() {
-        return (
+        return(
             <div>
-                <section className="colorlib-about" data-section="blog">
+                <section className="colorlib-certif" data-section="certif">
                     <div className="colorlib-narrow-content">
                         <div className="row">
                             <div className="col-md-12">
@@ -12,9 +12,8 @@ export default class Blog extends Component {
                                     <div className="col-md-12">
                                         <div className="about-desc">
                                             <span className="heading-meta">blog</span>
-                                            <h2 className="colorlib-heading">Checkout My Websites by clicking on the pictures</h2>
-                                            <span><a href="http://free-tech.blog" target="_blank"><img style={{width:"280px", height:"120px", margin:"20px"}} src="images/free.png"></img></a></span>
-                                            <span><a href="http://212gaming.com" target="_blank"><img style={{width:"280px", height:"120px", margin:"20px"}} src="images/212gaming.png"/></a></span>
+                                            <h2 className="colorlib-heading">Certifications</h2>
+                                            <span><a href="https://www.hackerrank.com/certificates/ac75f9265086" target="_blank"><img style={{height:"120px", margin:"20px"}} src="images/hackerrank.jpeg"></img></a></span>
                                         </div>
                                     </div>
                                 </div>

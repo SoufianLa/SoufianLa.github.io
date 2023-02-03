@@ -9,6 +9,7 @@ import Education from './component/education';
 import TerminalCustom from './component/terminal'
 import Skills from './component/skills'
 import Blog from './component/blog';
+import Certif from "./component/certif";
 
 
 
@@ -27,6 +28,7 @@ function App() {
           <Education />
           <Projects />
           <Blog />
+          <Certif />
           <Contact />
       	</div>
       </div>
