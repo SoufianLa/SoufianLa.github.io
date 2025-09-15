@@ -17,12 +17,41 @@ export default class Timeline extends Component {
                 <div className="timeline-centered">
                 <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                     <div className="timeline-entry-inner">
+                        <div className="timeline-icon color-3">
+                            <i className="icon-pen2" />
+                        </div>
+                        <div className="timeline-label">
+                            <h2>Senior Software Engineer <span>2024-present</span><br></br><span><a href="http://sightview.com/" target="_blank">Sightview Software</a></span></h2>
+                        </div>
+                    </div>
+                </article>
+                <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                    <div className="timeline-entry-inner">
+                        <div className="timeline-icon color-2">
+                            <i className="icon-pen2" />
+                        </div>
+                        <div className="timeline-label">
+                            <h2>Senior Software Engineer <span>2024</span><br></br><span><a href="http://hire-q.com/" target="_blank">Hire-q</a></span></h2>
+                        </div>
+                    </div>
+                </article>
+                <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                    <div className="timeline-entry-inner">
+                        <div className="timeline-icon color-6">
+                            <i className="icon-pen2" />
+                        </div>
+                        <div className="timeline-label">
+                            <h2>Senior Software Engineer <span>2023-2024</span><br></br><span><a href="http://coda.tech/" target="_blank">Coda.tech</a></span></h2>
+                        </div>
+                    </div>
+                </article>
+                <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                    <div className="timeline-entry-inner">
                       <div className="timeline-icon color-5">
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Senior Backend Engineer <span>2019-present</span><br></br><span><a href="http://revotrends.com/">Revotrends</a></span></h2>
-                        <p>I have joined Revotrends as a senior Backend Engineer. My major part of the work has been backend development and operations process which makes the mobile apps work with a good conditions</p>
+                        <h2>Senior Backend Engineer <span>2019-2023</span><br></br><span><a href="http://revotrends.com/" target="_blank">Revotrends</a></span></h2>
                       </div>
                     </div>
                   </article>
@@ -32,10 +61,7 @@ export default class Timeline extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Lead software design Engineer <span>2018-2019</span><br></br><span><a href="http://futuretrendz.com">FutureTrendz</a></span></h2>
-                        <p> RESPONSIBLE FOR THE BACKEND APPLICATIONS (Conception, Code architecture, Implementation, Code review, Scalability to support high traffic, code deployment, Security & optimization …)
-                        </p><p> RESPONSIBLE FOR THE CLOUD ADMINISTRATION IN AWS (designing, implementing, developing and maintaining AWS services and infrastructure )</p>
-<p> <b>Tools/languages</b> : Python (Flask), PHP (symfony), NodeJS, GoLang, REST, SWAGGERUI, MARIADB, Mysql, JWT, git, Ansible, Apache2, React JS, AWS (VPC, R53, Load Balancing, EC2, RDS, DynamoDB, S3 ...)</p>
+                        <h2>Lead software design Engineer <span>2018-2019</span><br></br><span><a href="http://futuretrendz.com" target="_blank">FutureTrendz</a></span></h2>
                       </div>
                     </div>
                   </article>
@@ -45,10 +71,7 @@ export default class Timeline extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Full Stack Engineer <span>2016-2018</span><br></br><span><a href="http://www.mobiblanc.com">Mobiblanc</a></span></h2>
-                        <p> i was working on some interesting projects most of them was backend for mobile apps.
-</p><p> i was member of the team that is responsible for the API/BACKOFFICE mobile & web development.</p>
-<p> <b>Tools/languages</b> : PHP (symfony), NodeJS, REST/SOAP, SWAGGERUI, MARIADB, Mysql, Redis, JWT, Guard, git, HTML5/CSS3, ReactJs ...</p>
+                        <h2>Full Stack Engineer <span>2016-2018</span><br></br><span><a href="http://www.mobiblanc.com" target="_blank">Mobiblanc</a></span></h2>
                       </div>
                     </div>
                   </article>
@@ -58,11 +81,7 @@ export default class Timeline extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Python Engineer (final technical internship)<span>2016</span><br></br><span><a href="https://www.haca.ma/">LA HACA</a></span></h2>
-                        <p> Design and implementation of a remote monitoring web application for audiovisual
-operators in python.</p>
-<p> <b>Tools/languages</b> : Back-end : (Python, asynchronous Framework Twisted), Database
-(SQLITE), Modeling (UML), Environment (Kali-linux), test (pyunit, pytest), Scripting (bash).</p>
+                        <h2>Python Engineer <span>2016</span><br></br><span><a href="https://www.haca.ma/" target="_blank">LA HACA</a></span></h2>
                       </div>
                     </div>
                   </article>
@@ -72,9 +91,7 @@ operators in python.</p>
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Java Developer (Technical internship) <span>2015</span><br></br><span><a href="https://www.t-t.ma/">Technology & telecom</a></span></h2>
-                        <p> Implementation and integration of a communication GSM/GPS protocol in a geolocation application (openGTS).</p>
-                        <p> <b>Tools/languages</b> : Java, openGTS, eclipse, putty, ubuntu, FM4 Configurator.</p>
+                        <h2>Java Developer <span>2015</span><br></br><span><a href="https://www.t-t.ma/" target="_blank">Technology & telecom</a></span></h2>
                       </div>
                     </div>
                   </article>

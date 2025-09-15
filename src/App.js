@@ -27,8 +27,8 @@ function App() {
           <Timeline />
           <Education />
           <Projects />
-          <Blog />
-          <Certif />
+          {/*<Blog />*/}
+          {/*<Certif />*/}
           <Contact />
       	</div>
       </div>
